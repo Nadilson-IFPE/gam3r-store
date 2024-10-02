@@ -25,3 +25,15 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-10;
+  }
+
+  .button {
+    @apply flex justify-center items-center;
+    @apply gap-2 rounded-full px-9 h-9;
+    @apply text-sm font-semibold;
+  }
+}
