@@ -1,3 +1,12 @@
+Repositório do evento "Desenvolva uma aplicação de e-commerce
+integrada com Frontend, Backend e Mobile": https://escola.formacao.dev/
+
+Repository of event "Develop an e-commerce application integrated with Frontend, Backend and Mobile": https://escola.formacao.dev/
+
+
+----------------------
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
