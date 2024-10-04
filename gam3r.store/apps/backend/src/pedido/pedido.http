@@ -1,0 +1,43 @@
+GET http://localhost:3005/pedidos
+
+###
+GET http://localhost:3005/pedidos/1
+
+###
+DELETE http://localhost:3005/pedidos/1
+
+###
+POST http://localhost:3005/pedidos
+Content-Type: application/json
+
+{
+    "data": "2021-09-01T00:00:00.000Z",
+    "valorTotal": 200.00,
+    "status": "RECEBIDO",
+    "formaPagamento": "CARTAO",
+    "entrega": {
+        "nome": "Fulano",
+        "email": "fulano@email.com",
+        "cpf": "123.456.789-00",
+        "logradouro": "Rua dos Bobos, 0",
+        "complemento": "Apto 101",
+        "cidade": "São Paulo",
+        "estado": "SP"
+    },
+    "itens": [
+        {
+            "quantidade": 1,
+            "precoUnitario": 100.00,
+            "produto": {
+                "id": 1
+            }
+        },
+        {
+            "quantidade": 1,
+            "precoUnitario": 100.00,
+            "produto": {
+                "id": 2
+            }
+        }
+    ]
+}

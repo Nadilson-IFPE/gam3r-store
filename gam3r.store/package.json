@@ -1,5 +1,6 @@
 {
   "name": "gam3r.store",
+  "author": "Nadilson José Rodrigues Teixeira",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -15,7 +16,7 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "yarn@4.4.1",
+  "packageManager": "yarn@1.22.22",
   "workspaces": [
     "apps/*",
     "packages/*"

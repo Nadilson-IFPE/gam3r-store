@@ -1,0 +1,34 @@
+GET http://localhost:3005/produtos
+
+###
+GET http://localhost:3005/produtos/30
+
+###
+DELETE http://localhost:3005/produtos/29
+
+###
+POST http://localhost:3005/produtos
+Content-Type: application/json
+
+{
+    "nome": "Galaxy S24 Ultra",
+    "descricao": "Samsung Galaxy S24 Ultra é um smartphone top de linha com câmera de 108 MP",
+    "marca": "Samsung",
+    "modelo": "Galaxy S24",
+    "imagem": "https://samsungbrshop.vtexassets.com/arquivos/ids/228347/1---_S767B~1.png",
+    "nota": 4.8,
+    "videoReview": "https://www.youtube.com/watch?v=XaqOejIaFgM",
+    "tags": ["smartphone", "celular"],
+    "precoBase": 3000.00,
+    "precoPromocional": 2500.00,
+    "menorPreco": 2000.00,
+    "maiorPreco": 4000.00,
+    "precoMedio": 3000.00,
+    "especificacoes": {
+        "Tela": "6.2 polegadas",
+        "Memória": "8 GB",
+        "Armazenamento": "128 GB",
+        "Câmera": "12 MP",
+        "Bateria": "4000 mAh"
+    }
+}
