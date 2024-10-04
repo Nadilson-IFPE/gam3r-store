@@ -36,4 +36,9 @@ body {
     @apply gap-2 rounded-full px-9 h-9;
     @apply text-sm font-semibold;
   }
+
+  .input {
+    @apply bg-black/50 px-4 py-2 rounded;
+    @apply outline-none focus:border border-white/20;
+  }
 }
